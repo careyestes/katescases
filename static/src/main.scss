@@ -102,7 +102,7 @@ body {
     .flex-item {
         flex: 1 1 auto;
         &.flex-percent-25 {
-            flex-basis: 25%;
+            flex-basis: 236px;
         }
     }
 }
@@ -131,7 +131,7 @@ nav {
 
 .cases {
     .flex-item {
-        padding: 3rem;
+        margin: 3rem;
     }
     figure {
         flex: 0 0 auto;
@@ -167,7 +167,8 @@ nav {
     }
     .buy-me-container {
         width: 100%;
-        padding: 1.25rem;
+        max-width: 236px;
+        padding: 1.25rem 0;
     }
     button {
         padding: 0.5rem 1rem;
@@ -198,7 +199,8 @@ nav {
             justify-content: space-between;
             button {
                 margin: 0 0.7rem 0 0;
-                border-radius: 25px;
+                padding: 0 0.7rem;
+                border: 0;
                 font-size: 0.9rem;
             }
         }
