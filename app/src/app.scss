@@ -1,0 +1,72 @@
+@use 'reset.scss';
+
+.hidden {
+    display: none !important;
+}
+
+body {
+    height: 100vh;
+    font-family: $font;
+    font-size: 16px;
+    & > div {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        & > header {
+            flex: 0 0 8rem;
+        }
+        & > main {
+            flex: 1 1 auto;
+            padding: 8rem;
+        }
+        & > footer {
+            display: flex;
+            flex: 0 0 8rem;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
+
+.flex-container {
+    display: flex;
+    &.flex-wrap {
+        flex-wrap: wrap;
+    }
+    &.flex-column {
+        flex-direction: column;
+        &.center-x {
+            align-items: center;
+            justify-content: flex-start;
+        }
+    }
+    &.center-x-y {
+        align-items: center;
+        justify-content: center;
+    }
+    &.center-x {
+        justify-content: center;
+    }
+
+    .flex-item {
+        flex: 1 1 auto;
+        &.flex-percent-25 {
+            flex-basis: 25%;
+        }
+    }
+}
+
+header {        
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    & > * {
+        flex: 1 1 33%;
+    }
+}
+
+nav {
+    ul {
+        display: none;
+    }
+}
