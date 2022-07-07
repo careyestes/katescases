@@ -66,7 +66,7 @@ body {
         }
         & > main {
             flex: 1 1 auto;
-            padding: 8rem;
+            padding: 1rem 5rem;
         }
         & > footer {
             display: flex;
@@ -109,8 +109,15 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 1rem 0;
     & > * {
         flex: 1 1 33%;
+    }
+    .logo {
+        img {
+            width: 150px;
+            height: 150px;
+        }
     }
 }
 
@@ -156,8 +163,19 @@ nav {
         display: inline-block;
         padding: 0.5rem 0.2rem;
     }
+    .buy-me-container {
+        width: 100%;
+        padding: 1.25rem;
+    }
+    button {
+        padding: 0.5rem 1rem;
+        background: transparent;
+        border: 1px solid #777;
+        border-radius: 8px;
+        font-size: 1.25rem;
+        cursor: pointer;
+    }
     form {
-        padding: 1rem 0 0;
         width: 100%;
         table {
             width: 100%;
@@ -168,6 +186,13 @@ nav {
                 font-size: 1rem;
                 border: 1px solid grey;
                 border-radius: 4px;
+            }
+        }
+        .button-container {
+            justify-content: space-between;
+            button {
+                font-size: 0.9rem;
+                border-radius: 25px;
             }
         }
     }

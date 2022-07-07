@@ -65,7 +65,7 @@ body > div > header {
 }
 body > div > main {
   flex: 1 1 auto;
-  padding: 8rem;
+  padding: 1rem 5rem;
 }
 body > div > footer {
   display: flex;
@@ -105,9 +105,14 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 1rem 0;
 }
 header > * {
   flex: 1 1 33%;
+}
+header .logo img {
+  width: 150px;
+  height: 150px;
 }
 
 nav ul {
@@ -149,8 +154,19 @@ nav ul {
   display: inline-block;
   padding: 0.5rem 0.2rem;
 }
+.cases .buy-me-container {
+  width: 100%;
+  padding: 1.25rem;
+}
+.cases button {
+  padding: 0.5rem 1rem;
+  background: transparent;
+  border: 1px solid #777;
+  border-radius: 8px;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
 .cases form {
-  padding: 1rem 0 0;
   width: 100%;
 }
 .cases form table {
@@ -163,4 +179,11 @@ nav ul {
   font-size: 1rem;
   border: 1px solid grey;
   border-radius: 4px;
+}
+.cases form .button-container {
+  justify-content: space-between;
+}
+.cases form .button-container button {
+  font-size: 0.9rem;
+  border-radius: 25px;
 }
