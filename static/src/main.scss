@@ -66,6 +66,8 @@ body {
         }
         & > main {
             flex: 1 1 auto;
+            max-width: 1800px;
+            margin: 0 auto;
             padding: 1rem 5rem;
         }
         & > footer {
@@ -174,6 +176,10 @@ nav {
         border-radius: 8px;
         font-size: 1.25rem;
         cursor: pointer;
+        &:hover {
+            background: #eee;
+            // color: white;
+        }
     }
     form {
         width: 100%;

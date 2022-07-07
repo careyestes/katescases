@@ -65,6 +65,8 @@ body > div > header {
 }
 body > div > main {
   flex: 1 1 auto;
+  max-width: 1800px;
+  margin: 0 auto;
   padding: 1rem 5rem;
 }
 body > div > footer {
@@ -166,6 +168,9 @@ nav ul {
   font-size: 1.25rem;
   cursor: pointer;
 }
+.cases button:hover {
+  background: #eee;
+}
 .cases form {
   width: 100%;
 }
@@ -184,6 +189,7 @@ nav ul {
   justify-content: space-between;
 }
 .cases form .button-container button {
-  font-size: 0.9rem;
+  margin: 0 0.7rem 0 0;
   border-radius: 25px;
+  font-size: 0.9rem;
 }
