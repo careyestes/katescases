@@ -191,8 +191,9 @@ nav {
         .button-container {
             justify-content: space-between;
             button {
-                font-size: 0.9rem;
+                margin: 0 0.7rem 0 0;
                 border-radius: 25px;
+                font-size: 0.9rem;
             }
         }
     }
