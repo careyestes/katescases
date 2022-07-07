@@ -156,4 +156,19 @@ nav {
         display: inline-block;
         padding: 0.5rem 0.2rem;
     }
+    form {
+        padding: 1rem 0 0;
+        width: 100%;
+        table {
+            width: 100%;
+            input {
+                width: 100%;
+                margin: 0 0 1rem;
+                padding: 0.25rem;
+                font-size: 1rem;
+                border: 1px solid grey;
+                border-radius: 4px;
+            }
+        }
+    }
 }
