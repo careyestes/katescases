@@ -67,7 +67,12 @@ body > div > main {
   flex: 1 1 auto;
   max-width: 1800px;
   margin: 0 auto;
-  padding: 1rem 5rem;
+  padding: 1rem 0;
+}
+@media only screen and (min-width: 1024px) {
+  body > div > main {
+    padding: 1rem 5rem;
+  }
 }
 body > div > footer {
   display: flex;
