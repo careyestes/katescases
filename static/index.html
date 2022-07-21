@@ -7,24 +7,467 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Kates Cases</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="favicon.png">
         <link rel="stylesheet" href="dist/css/main.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     </head>
-    <style>
-        h1 {
-            font-size: 4rem;
-        }
-    </style>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
             <div>
-                <main class="flex-container center-x-y">
-                    <h1>Coming Soon</h1>
+                <header>
+                    <div class="flex-container center-x-y menu">
+                        <!-- <nav>
+                            <button>Menu Button</button>
+                            <ul>
+                                <li>Menu Item 1</li>
+                                <li>Menu Item 2</li>
+                                <li>Menu Item 3</li>
+                            </ul>
+                        </nav> -->
+                        <!-- <div class="flex-container phone-select hidden">
+                            <select>
+                                <option value=0>Select Phone:</option>
+                                <option value="iPhone">iPhone</option>
+                                <option value="iPhone">Android</option>
+                            </select>
+                            <select>
+                                <option value="0">Model:</option>
+                                <option value="1">iPhone SE</option>
+                                <option value="2">iPhone 13 Pro / Max</option>
+                                <option value="3">iPhone 13</option>
+                                <option value="4">iPhone 13 Mini</option>
+                                <option value="5">iPhone 12 Pro Max</option>
+                                <option value="6">Samsung </option>
+                                <option value="7">Land Rover</option>
+                                <option value="8">Mercedes</option>
+                                <option value="9">Mini</option>
+                                <option value="10">Nissan</option>
+                                <option value="11">Toyota</option>
+                                <option value="12">Volvo</option>
+                            </select>
+                        </div> -->
+                    </div>
+                    <div class="flex-container center-x-y logo">
+                        <img src="assets/images/logo/logo.png" alt="Kate's Cases Logo">
+                    </div>
+                    <div class="flex-container center-x-y options">
+                        <!-- Cart -->
+                    </div>
+                </header>
+                <main>
+                    <div class="flex-container flex-wrap cases">
+                        
+                        <div class="flex-item flex-column flex-percent-25 flex-container center-x" itemscope>
+                            <figure>
+                                <img src="assets/images/cases/butterfly-blue.jpg" alt="" itemprop="Case Image">
+                                <figcaption>Butterfly <br><span>Blue</span></figcaption>
+                            </figure>
+                            <p class="price" itemprop="price"><span class="currency-type" content="USD">$</span><span class="price-amount" itemprop="amount">25</span></p>
+
+                            <div class="flex-container center-x-y buy-me-container">
+                                <button class="buy-me">Buy Me</button>
+                                <form class="paypal-cart-form hidden" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                    <input type="hidden" name="cmd" value="_s-xclick">
+                                    <input type="hidden" name="hosted_button_id" value="Y7B8WZ3URJY3N">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <input type="hidden" name="on0" value="Phone Model">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input placeholder="Enter Phone Model" type="text" name="os0" maxlength="200">
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <div class="flex-container center-x-y button-container">
+                                        <button class="cancel-buy-me">Cancel</button>
+                                        <input type="image" src="https://raw.githubusercontent.com/careyestes/katescases/master/static/assets/images/Add-to-Cart.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        
+                        <div class="flex-item flex-column flex-percent-25 flex-container center-x">
+                            <figure>
+                                <img src="assets/images/cases/checkerboard-black-white.jpg" alt="" itemprop="Case Image">
+                                <figcaption>Checkerboard <br><span>Black & White</span> </figcaption>
+                            </figure>
+                            <p class="price" itemprop="price"><span class="currency-type" content="USD">$</span><span class="price-amount" itemprop="amount">25</span></p>
+
+                            <div class="flex-container center-x-y buy-me-container">
+                                <button class="buy-me">Buy Me</button>
+                                <form class="paypal-cart-form hidden" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                    <input type="hidden" name="cmd" value="_s-xclick">
+                                    <input type="hidden" name="hosted_button_id" value="E46YQCP2WNJ68">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <input type="hidden" name="on0" value="Phone Model">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input placeholder="Enter Phone Model" type="text" name="os0" maxlength="200">
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <div class="flex-container center-x-y button-container">
+                                        <button class="cancel-buy-me">Cancel</button>
+                                        <input type="image" src="https://raw.githubusercontent.com/careyestes/katescases/master/static/assets/images/Add-to-Cart.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        
+                        <div class="flex-item flex-column flex-percent-25 flex-container center-x">
+                            <figure>
+                                <img src="assets/images/cases/checkerboard-green-white.jpg" alt="" itemprop="Case Image">
+                                <figcaption>Checkerboard <br><span>Green & White</span> </figcaption>
+                            </figure>
+                            <p class="price" itemprop="price"><span class="currency-type" content="USD">$</span><span class="price-amount" itemprop="amount">25</span></p>
+
+                            <div class="flex-container center-x-y buy-me-container">
+                                <button class="buy-me">Buy Me</button>
+                                <form class="paypal-cart-form hidden" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                    <input type="hidden" name="cmd" value="_s-xclick">
+                                    <input type="hidden" name="hosted_button_id" value="V25EDD5CBZVFE">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <input type="hidden" name="on0" value="Phone Model">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input placeholder="Enter Phone Model" type="text" name="os0" maxlength="200">
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <div class="flex-container center-x-y button-container">
+                                        <button class="cancel-buy-me">Cancel</button>
+                                        <input type="image" src="https://raw.githubusercontent.com/careyestes/katescases/master/static/assets/images/Add-to-Cart.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                                    </div>
+                                </form>
+                            </div>
+
+                        </div>
+                        
+                        <div class="flex-item flex-column flex-percent-25 flex-container center-x">
+                            <figure>
+                                <img src="assets/images/cases/checkerboard-wavy-hotpink-white.jpg" alt="" itemprop="Case Image">
+                                <figcaption>Wavy Checkerboard <br><span>Hot Pink & White</span> </figcaption>
+                            </figure>
+                            <p class="price" itemprop="price"><span class="currency-type" content="USD">$</span><span class="price-amount" itemprop="amount">25</span></p>
+
+                            <div class="flex-container center-x-y buy-me-container">
+                                <button class="buy-me">Buy Me</button>
+                                <form class="paypal-cart-form hidden" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                    <input type="hidden" name="cmd" value="_s-xclick">
+                                    <input type="hidden" name="hosted_button_id" value="ZBERD4RPQEQ3J">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <input type="hidden" name="on0" value="Phone Model">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input placeholder="Enter Phone Model" type="text" name="os0" maxlength="200">
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <div class="flex-container center-x-y button-container">
+                                        <button class="cancel-buy-me">Cancel</button>
+                                        <input type="image" src="https://raw.githubusercontent.com/careyestes/katescases/master/static/assets/images/Add-to-Cart.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                                    </div>
+                                </form>
+                            </div>
+
+                        </div>
+                        
+                        <div class="flex-item flex-column flex-percent-25 flex-container center-x">
+                            <figure>
+                                <img src="assets/images/cases/checkerboard-wavy-lightpink-white.jpg" alt="" itemprop="Case Image">
+                                <figcaption>Wavy Checkerboard <br><span>Light Pink & White</span> </figcaption>
+                            </figure>
+                            <p class="price" itemprop="price"><span class="currency-type" content="USD">$</span><span class="price-amount" itemprop="amount">25</span></p>
+
+                            <div class="flex-container center-x-y buy-me-container">
+                                <button class="buy-me">Buy Me</button>
+                                <form class="paypal-cart-form hidden" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                    <input type="hidden" name="cmd" value="_s-xclick">
+                                    <input type="hidden" name="hosted_button_id" value="MNDAMCWPFYE2S">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <input type="hidden" name="on0" value="Phone Model">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input placeholder="Enter Phone Model" type="text" name="os0" maxlength="200">
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <div class="flex-container center-x-y button-container">
+                                        <button class="cancel-buy-me">Cancel</button>
+                                        <input type="image" src="https://raw.githubusercontent.com/careyestes/katescases/master/static/assets/images/Add-to-Cart.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                                    </div>
+                                </form>
+                            </div>
+
+                        </div>
+                        
+                        <div class="flex-item flex-column flex-percent-25 flex-container center-x">
+                            <figure>
+                                <img src="assets/images/cases/flowers-blue.jpg" alt="" itemprop="Case Image">
+                                <figcaption>Flowers <br><span>Blue</span> </figcaption>
+                            </figure>
+                            <p class="price" itemprop="price"><span class="currency-type" content="USD">$</span><span class="price-amount" itemprop="amount">25</span></p>
+
+                            <div class="flex-container center-x-y buy-me-container">
+                                <button class="buy-me">Buy Me</button>
+                                <form class="paypal-cart-form hidden" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                    <input type="hidden" name="cmd" value="_s-xclick">
+                                    <input type="hidden" name="hosted_button_id" value="DSV9QV84LG8FE">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <input type="hidden" name="on0" value="Phone Model">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input placeholder="Enter Phone Model" type="text" name="os0" maxlength="200">
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <div class="flex-container center-x-y button-container">
+                                        <button class="cancel-buy-me">Cancel</button>
+                                        <input type="image" src="https://raw.githubusercontent.com/careyestes/katescases/master/static/assets/images/Add-to-Cart.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                                    </div>
+                                </form>
+                            </div>
+
+                        </div>
+                        
+                        <div class="flex-item flex-column flex-percent-25 flex-container center-x">
+                            <figure>
+                                <img src="assets/images/cases/flowers-yellow.jpg" alt="" itemprop="Case Image">
+                                <figcaption>Fowers <br><span>Yellow</span> </figcaption>
+                            </figure>
+                            <p class="price" itemprop="price"><span class="currency-type" content="USD">$</span><span class="price-amount" itemprop="amount">25</span></p>
+
+                            <div class="flex-container center-x-y buy-me-container">
+                                <button class="buy-me">Buy Me</button>
+                                <form class="paypal-cart-form hidden" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                    <input type="hidden" name="cmd" value="_s-xclick">
+                                    <input type="hidden" name="hosted_button_id" value="CYKG9JFYSUV52">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <input type="hidden" name="on0" value="Phone Model">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input placeholder="Enter Phone Model" type="text" name="os0" maxlength="200">
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <div class="flex-container center-x-y button-container">
+                                        <button class="cancel-buy-me">Cancel</button>
+                                        <input type="image" src="https://raw.githubusercontent.com/careyestes/katescases/master/static/assets/images/Add-to-Cart.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        
+                        <div class="flex-item flex-column flex-percent-25 flex-container center-x">
+                            <figure>
+                                <img src="assets/images/cases/hat-pink.jpg" alt="" itemprop="Case Image">
+                                <figcaption>Hat <br><span>Pink</span> </figcaption>
+                            </figure>
+                            <p class="price" itemprop="price"><span class="currency-type" content="USD">$</span><span class="price-amount" itemprop="amount">25</span></p>
+
+                            <div class="flex-container center-x-y buy-me-container">
+                                <button class="buy-me">Buy Me</button>
+                                <form class="paypal-cart-form hidden" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                    <input type="hidden" name="cmd" value="_s-xclick">
+                                    <input type="hidden" name="hosted_button_id" value="DN9RYCLPPHSXL">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <input type="hidden" name="on0" value="Phone Model">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input placeholder="Enter Phone Model" type="text" name="os0" maxlength="200">
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <div class="flex-container center-x-y button-container">
+                                        <button class="cancel-buy-me">Cancel</button>
+                                        <input type="image" src="https://raw.githubusercontent.com/careyestes/katescases/master/static/assets/images/Add-to-Cart.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                                    </div>
+                                </form>
+                            </div>                                
+                        
+                        </div>
+                        
+                        <div class="flex-item flex-column flex-percent-25 flex-container center-x">
+                            <figure>
+                                <img src="assets/images/cases/heart-darkblue.jpg" alt="" itemprop="Case Image">
+                                <figcaption>Heart <br><span>Dark Blue</span> </figcaption>
+                            </figure>
+                            <p class="price" itemprop="price"><span class="currency-type" content="USD">$</span><span class="price-amount" itemprop="amount">25</span></p>
+
+                            <div class="flex-container center-x-y buy-me-container">
+                                <button class="buy-me">Buy Me</button>
+                                <form class="paypal-cart-form hidden" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                    <input type="hidden" name="cmd" value="_s-xclick">
+                                    <input type="hidden" name="hosted_button_id" value="N4DXNMK3KMMQQ">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <input type="hidden" name="on0" value="Phone Model">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input placeholder="Enter Phone Model" type="text" name="os0" maxlength="200">
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <div class="flex-container center-x-y button-container">
+                                        <button class="cancel-buy-me">Cancel</button>
+                                        <input type="image" src="https://raw.githubusercontent.com/careyestes/katescases/master/static/assets/images/Add-to-Cart.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                                    </div>
+                                </form>
+                            </div>
+
+                        </div>
+                        
+                        <div class="flex-item flex-column flex-percent-25 flex-container center-x">
+                            <figure>
+                                <img src="assets/images/cases/heart-green.jpg" alt="" itemprop="Case Image">
+                                <figcaption>Heart <br><span>Green</span> </figcaption>
+                            </figure>
+                            <p class="price" itemprop="price"><span class="currency-type" content="USD">$</span><span class="price-amount" itemprop="amount">25</span></p>
+
+                            <div class="flex-container center-x-y buy-me-container">
+                                <button class="buy-me">Buy Me</button>
+                                <form class="paypal-cart-form hidden" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                    <input type="hidden" name="cmd" value="_s-xclick">
+                                    <input type="hidden" name="hosted_button_id" value="NQP5AVZ6G4YB4">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <input type="hidden" name="on0" value="Phone Model">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input placeholder="Enter Phone Model" type="text" name="os0" maxlength="200">
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <div class="flex-container center-x-y button-container">
+                                        <button class="cancel-buy-me">Cancel</button>
+                                        <input type="image" src="https://raw.githubusercontent.com/careyestes/katescases/master/static/assets/images/Add-to-Cart.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                                    </div>
+                                </form>
+                            </div>
+
+                        </div>
+                        
+                        <div class="flex-item flex-column flex-percent-25 flex-container center-x">
+                            <figure>
+                                <img src="assets/images/cases/smile-pink.jpg" alt="" itemprop="Case Image">
+                                <figcaption>Smiley <br><span>Pink</span> </figcaption>
+                            </figure>
+                            <p class="price" itemprop="price"><span class="currency-type" content="USD">$</span><span class="price-amount" itemprop="amount">25</span></p>
+
+                            <div class="flex-container center-x-y buy-me-container">
+                                <button class="buy-me">Buy Me</button>
+                                <form class="paypal-cart-form hidden" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                    <input type="hidden" name="cmd" value="_s-xclick">
+                                    <input type="hidden" name="hosted_button_id" value="A9EA95826BDHA">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <input type="hidden" name="on0" value="Phone Model">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input placeholder="Enter Phone Model" type="text" name="os0" maxlength="200">
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <div class="flex-container center-x-y button-container">
+                                        <button class="cancel-buy-me">Cancel</button>
+                                        <input type="image" src="https://raw.githubusercontent.com/careyestes/katescases/master/static/assets/images/Add-to-Cart.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                                    </div>
+                                </form>
+                            </div>
+                                
+                        </div>
+                        
+                        <div class="flex-item flex-column flex-percent-25 flex-container center-x">
+                            <figure>
+                                <img src="assets/images/cases/waves-blue.jpg" alt="" itemprop="Case Image">
+                                <figcaption>Waves <br><span>Blue</span> </figcaption>
+                            </figure>
+                            <p class="price" itemprop="price"><span class="currency-type" content="USD">$</span><span class="price-amount" itemprop="amount">25</span></p>
+
+                            <div class="flex-container center-x-y buy-me-container">
+                                <button class="buy-me">Buy Me</button>
+                                <form class="paypal-cart-form hidden" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                    <input type="hidden" name="cmd" value="_s-xclick">
+                                    <input type="hidden" name="hosted_button_id" value="ZAVXMSPZDXQZC">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <input type="hidden" name="on0" value="Phone Model">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input placeholder="Enter Phone Model" type="text" name="os0" maxlength="200">
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <div class="flex-container center-x-y button-container">
+                                        <button class="cancel-buy-me">Cancel</button>
+                                        <input type="image" src="https://raw.githubusercontent.com/careyestes/katescases/master/static/assets/images/Add-to-Cart.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                                    </div>
+                                </form>
+                            </div>
+                        
+                        </div>
+                    
+                    </div>
                 </main>
                 
                 <footer>
