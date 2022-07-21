@@ -108,10 +108,13 @@ body {
 }
 
 header {        
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: block;
     padding: 1rem 0;
+    @media only screen and (min-width: 1024px) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     & > * {
         flex: 1 1 33%;
     }
